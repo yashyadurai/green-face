@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box
+}
+body {
+    background-color: #2f5f45;
+}
+#main-container {
+    background: #339c62;
+}
+.color {
+    background: #9cde9f;
+}
+#eyes-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.eyes {
+    border:0px ;
+    border-radius: 100px;
+    width: 109px;
+    height: 109px;
+    margin: 30px;
+}
+.pupil {
+    border: 0px ;
+    width: 57px;
+    height: 56px;
+    border-radius: 100px;
+    background-color: #339c62;
+}
+#pupil-1 {
+    position: relative;
+    top: 38px;
+    left: 39px;
+}
+#pupil-2 {
+    position: relative;
+    top: 17px;
+    left: 19px;
+}
+.nose {
+    border: 0px;
+    width: 52px;
+    height: 78px;
+    margin: 0 auto;
+}
+#verMouth-1 {
+    border: 0px;
+    width: 17px;
+    height: 59px;
+    position: relative;
+    top: 21px;
+    left:118px;
+}
+#verMouth-2 {
+    border: 0px;
+    width: 17px;
+    height: 59px;
+    position: relative;
+    left: 273px;
+    top: -59px;
+}
+.horMouth {
+    border: 0px;
+    position: relative;
+    width: 138px;
+    height: 21px;
+    margin: 0 auto;
+}
+#mouth-container {
+    display: inline;
+    top: 21px;
+}
