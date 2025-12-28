@@ -4,6 +4,12 @@
 body {
     background-color: #2f5f45;
 }
+#face{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 #main-container {
     background: #339c62;
 }
